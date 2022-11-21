@@ -25,6 +25,7 @@ The goal of this repository is to **tinker** with OpenTelemetry, Prometheus, and
 ### Endpoints
 
 Endpoint | Description
+:--|:--|
 GET http://localhost:8080 | Returns `Hello World`
 GET http://localhost:8080/api/books | Returns a list of book names
 
