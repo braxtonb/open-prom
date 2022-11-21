@@ -15,6 +15,11 @@ The goal of this repository is to **tinker** with OpenTelemetry, Prometheus, and
 7. Open the Prometheus UI to monitor R(equest rate) E(error rate) D(uration of requests - aka latency) - http://localhost:9090
 8. To wrap up, stop the express app - `ctrl + c` and stop the infra - `./stop-infra.sh`
 
+## Example
+
+<video src='./media/2022_11_21_open_prom_example.mov' width="100%" />
+
+
 ## Endpoints
 
 Endpoint | Description
@@ -38,4 +43,3 @@ GET http://localhost:8080/api/books | Returns a list of book names
 **Initializing Eslint**
 
 `npx eslint --init`
-
