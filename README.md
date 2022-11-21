@@ -1,10 +1,10 @@
 # open-prom
 
-### Overview
+## Overview
 
 The goal of this repository is to **tinker** with OpenTelemetry, Prometheus, and Jaeger. More polish could be added to the app by adding a build script, dockerizing the express app, and auto formatting the code.
 
-### Getting Started
+## Getting Started
 
 1. Install the dependencies - `npm install`
 2. Start up [docker desktop](https://www.docker.com/products/docker-desktop/)
@@ -15,21 +15,21 @@ The goal of this repository is to **tinker** with OpenTelemetry, Prometheus, and
 7. Open the Prometheus UI to monitor R(equest rate) E(error rate) D(uration of requests - aka latency) - http://localhost:9090
 8. To wrap up, stop the express app - `ctrl + c` and stop the infra - `./stop-infra.sh`
 
-### Endpoints
+## Endpoints
 
 Endpoint | Description
 :--|:--|
 GET http://localhost:8080 | Returns `Hello World`
 GET http://localhost:8080/api/books | Returns a list of book names
 
-### Resources
+## Resources
 
 - [OpenTelemetry](https://opentelemetry.io/)
 - [Prometheus](https://prometheus.io/)
 - [Jaeger](https://www.jaegertracing.io/docs/1.21/opentelemetry/)
 - [Node.js Auto-instrumentation](https://github.com/open-telemetry/opentelemetry-js-contrib/tree/main/metapackages/auto-instrumentations-node#readme)
 
-### Other Notes
+## Other Notes
 
 **Initializing Typescript**
 
