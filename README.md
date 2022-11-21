@@ -19,7 +19,6 @@ The goal of this repository is to **tinker** with OpenTelemetry, Prometheus, and
 
 <video src='./media/2022_11_21_open_prom_example.mov' width="100%" />
 
-
 ## Endpoints
 
 Endpoint | Description
